@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -29,4 +26,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.clearFix {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.inlineError {
+  color: #f44336;
 }
